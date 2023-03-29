@@ -30,19 +30,30 @@ def merge(left, right): #進行合併
     
     return result
 
-def quick_sort(arr):
-    if len(arr) <= 1:
-        return arr
+def quick_sort(var):
+    if len(var) <= 1:
+        return var
     
-    pivot = arr[len(arr) // 2]
-    left = [x for x in arr if x < pivot]
-    middle = [x for x in arr if x == pivot]
-    right = [x for x in arr if x > pivot]
+    pivot = var[len(var) // 2]
+    left = []
+    middle = []
+    right = []
+
+    for x in var:
+        if x < pivot:
+            left.append(x)
+        elif x == pivot:
+            middle.append(x)
+        else:
+            right.append(x)
     
     return quick_sort(left) + middle + quick_sort(right)
-
+    
 # 產生1000筆隨機數字的測試資料
-data = [random.randint(0, 1000000) for i in range(1000)]
+data = []
+for i in range(1000):
+    num = random.randint(0, 1000000)
+    data.append(num)
 
 # 測試合併排序效率
 start_time = time.time()
