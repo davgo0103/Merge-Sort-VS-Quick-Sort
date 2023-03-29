@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Merge Sort VS Quick Sort", "Merge Sort VS Quick Sort\Merge Sort VS Quick Sort.pyproj", "{80D6B73D-5298-4687-A5B8-F8FC3447036E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D6B73D-5298-4687-A5B8-F8FC3447036E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D6B73D-5298-4687-A5B8-F8FC3447036E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6A0A358-90D4-41F4-B96B-0E18F6C4DCB8}
+	EndGlobalSection
+EndGlobal
